@@ -9,7 +9,7 @@ const TAILS_IMG_URL = 'https://assets.ccbp.in/frontend/react-js/tails-img.png'
 
 class CoinToss extends Component {
   state = {
-    tossResultImage = HEADS_IMG_URL,
+    tossResultImage: HEADS_IMG_URL,
     headsCount: 0,
     tailsCount: 0,
   }
